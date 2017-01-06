@@ -23,4 +23,5 @@
     <color name="theme_accent">#FEC006</color>
     <color name="ltgray">#ffe0e0e0</color>
     <color name="black">@android:color/black</color>
+    <color name="light_gray">#B3FFFFFF</color>
 </resources>

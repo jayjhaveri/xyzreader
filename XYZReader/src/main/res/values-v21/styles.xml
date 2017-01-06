@@ -8,11 +8,11 @@
 
         <item name="android:windowContentTransitions">true</item>
 
-        <!--<item name="android:windowEnterTransition">@transition/explode</item>-->
-        <!--<item name="android:windowExitTransition">@transition/explode</item>-->
+        <item name="android:windowEnterTransition">@transition/explode</item>
+        <item name="android:windowExitTransition">@transition/explode</item>
     </style>
 
-    <style name="Theme.Bacon.Detail" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.Bacon.Detail" parent="@style/Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/coloPrimaryDark</item>
         <item name="colorAccent">@color/theme_accent</item>
@@ -21,8 +21,8 @@
         <!--<item name="android:windowEnterTransition">@transition/explode</item>-->
         <!--<item name="android:windowExitTransition">@transition/explode</item>-->
 
-        <!-- specify shared element transitions -->
-        <item name="android:windowSharedElementEnterTransition">@transition/changebounds</item>
-        <item name="android:windowSharedElementExitTransition">@transition/changebounds</item>
+        <!--&lt;!&ndash; specify shared element transitions &ndash;&gt;-->
+        <!--<item name="android:windowSharedElementEnterTransition">@transition/changebounds</item>-->
+        <!--<item name="android:windowSharedElementExitTransition">@transition/changebounds</item>-->
     </style>
 </resources>

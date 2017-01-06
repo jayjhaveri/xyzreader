@@ -11,5 +11,10 @@
     <dimen name="keyline_1">72dp</dimen>
 
     <dimen name="offset_y">300dp</dimen>
+    <dimen name="list_padding">16dp</dimen>
+    <dimen name="sub_bottom_padding">4dp</dimen>
+
+    <dimen name="elevation_standard">4dp</dimen>
+    <dimen name="margin_top_nestedScroll">8dp</dimen>
 
 </resources>

@@ -1,6 +1,5 @@
 package com.example.xyzreader.ui;
 
-import android.app.ActivityOptions;
 import android.app.LoaderManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -12,6 +11,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.v4.app.ActivityOptionsCompat;
+import android.support.v4.util.Pair;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
@@ -23,10 +24,10 @@ import android.transition.Slide;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewTreeObserver;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.view.animation.Interpolator;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.xyzreader.R;
@@ -54,10 +55,6 @@ public class ArticleListActivity extends AppCompatActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_article_list);
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            postponeEnterTransition();
-        }
 
         mAppBarLayout = (AppBarLayout) findViewById(R.id.appbar);
 
@@ -163,7 +160,6 @@ public class ArticleListActivity extends AppCompatActivity implements
         StaggeredGridLayoutManager sglm =
                 new StaggeredGridLayoutManager(columnCount, StaggeredGridLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(sglm);
-        scheduleStartPostponedTransition(mRecyclerView);
     }
 
     @Override
@@ -199,10 +195,14 @@ public class ArticleListActivity extends AppCompatActivity implements
                     Bundle bundle = null;
 
                     if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
-                        ActivityOptions transitionActivityOptions =
-                                ActivityOptions.makeSceneTransitionAnimation(ArticleListActivity.this,
-                                        sharedView,
-                                        sharedView.getTransitionName());
+
+                        Pair<View,String> image = Pair.create(sharedView, sharedView.getTransitionName());
+                        Pair<View,String> title = Pair.create(view.findViewById(R.id.linear_layout),
+                                view.findViewById(R.id.cardView).getTransitionName());
+
+                        ActivityOptionsCompat transitionActivityOptions =
+                                ActivityOptionsCompat.makeSceneTransitionAnimation(ArticleListActivity.this,
+                                        image, title);
                         bundle = transitionActivityOptions.toBundle();
                     }
                     startActivity(intent, bundle);
@@ -225,7 +225,17 @@ public class ArticleListActivity extends AppCompatActivity implements
             holder.thumbnailView.setImageUrl(
                     mCursor.getString(ArticleLoader.Query.THUMB_URL),
                     ImageLoaderHelper.getInstance(ArticleListActivity.this).getImageLoader());
+            /*Glide.with(ArticleListActivity.this)
+                    .load(mCursor.getString(ArticleLoader.Query.THUMB_URL))
+                    .crossFade()
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .into(holder.thumbnailView);*/
             holder.thumbnailView.setAspectRatio(mCursor.getFloat(ArticleLoader.Query.ASPECT_RATIO));
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                holder.thumbnailView.setTransitionName("transition"+position);
+                holder.cardView.setTransitionName(getString(R.string.transition_title)+position);
+                Log.d("Holder",holder.thumbnailView.getTransitionName());
+            }
             setAnimation(holder.cardView, position);
         }
 
@@ -249,6 +259,7 @@ public class ArticleListActivity extends AppCompatActivity implements
         public DynamicHeightNetworkImageView thumbnailView;
         public TextView titleView;
         public TextView subtitleView;
+        public LinearLayout linearLayout;
 
         public ViewHolder(View view) {
             super(view);
@@ -256,6 +267,7 @@ public class ArticleListActivity extends AppCompatActivity implements
             cardView = (CardView) view.findViewById(R.id.cardView);
             titleView = (TextView) view.findViewById(R.id.article_title);
             subtitleView = (TextView) view.findViewById(R.id.article_subtitle);
+            linearLayout = (LinearLayout) view.findViewById(R.id.linear_layout);
         }
     }
 
@@ -287,17 +299,4 @@ public class ArticleListActivity extends AppCompatActivity implements
         }
     }
 
-    private void scheduleStartPostponedTransition(final View sharedElement) {
-        sharedElement.getViewTreeObserver().addOnPreDrawListener(
-                new ViewTreeObserver.OnPreDrawListener() {
-                    @Override
-                    public boolean onPreDraw() {
-                        sharedElement.getViewTreeObserver().removeOnPreDrawListener(this);
-                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                            startPostponedEnterTransition();
-                        }
-                        return true;
-                    }
-                });
-    }
 }
