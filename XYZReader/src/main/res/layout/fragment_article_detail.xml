@@ -156,6 +156,6 @@
         android:contentDescription="@string/action_share"
         android:elevation="@dimen/fab_elevation"
         android:src="@drawable/ic_share"
-        app:pressedTranslationZ="@dimen/pressedTranslation_fab" />
+        android:stateListAnimator="@animator/fab_state_list_anim" />
 </android.support.design.widget.CoordinatorLayout>
 
