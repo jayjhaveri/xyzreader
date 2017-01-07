@@ -10,44 +10,14 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35fe4561-51f0-46db-8065-177fb1bab4a1" name="Default" comment="Shared transition bug fixes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cardview_v7_25_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/design_25_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/glide_3_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/okhttp_3_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/okio_1_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/palette_v7_25_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_25_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v13_25_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_25_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/transition_25_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/volley.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ScrollAwareFABBehavior.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/src/main/res/anim-v21/fab_state_list_anim.xml" afterPath="" />
+    <list default="true" id="35fe4561-51f0-46db-8065-177fb1bab4a1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/XYZReader.iml" afterPath="$PROJECT_DIR$/XYZReader/XYZReader.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailActivity.java" afterPath="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailFragment.java" afterPath="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/res/layout/fragment_article_detail.xml" afterPath="$PROJECT_DIR$/XYZReader/src/main/res/layout/fragment_article_detail.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/res/values-v21/styles.xml" afterPath="$PROJECT_DIR$/XYZReader/src/main/res/values-v21/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/XYZReader/src/main/res/values/dimens.xml" />
     </list>
     <ignored path="xyzreader.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -194,28 +164,28 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="156" column="64" selection-start-line="156" selection-start-column="64" selection-end-line="156" selection-end-column="64" />
+            <state relative-caret-position="255">
+              <caret line="89" column="39" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
               <folding>
-                <element signature="e#1764#1800#0" expanded="true" />
-                <element signature="e#1837#1871#0" expanded="true" />
-                <element signature="e#1909#1943#0" expanded="true" />
-                <element signature="e#1979#2015#0" expanded="true" />
-                <element signature="e#2055#2081#0" expanded="true" />
-                <element signature="e#2487#2531#0" expanded="true" />
-                <element signature="e#2813#2844#0" expanded="true" />
-                <element signature="e#2921#2939#0" expanded="true" />
-                <element signature="e#3694#3721#0" expanded="true" />
-                <element signature="e#4276#4306#0" expanded="true" />
-                <element signature="e#4374#4414#0" expanded="true" />
-                <element signature="e#6337#6371#0" expanded="true" />
-                <element signature="e#6415#6449#0" expanded="true" />
-                <element signature="e#6582#6616#0" expanded="true" />
-                <element signature="e#6759#6789#0" expanded="true" />
-                <element signature="e#7138#7157#0" expanded="true" />
-                <element signature="e#7193#7215#0" expanded="true" />
-                <element signature="e#7242#7264#0" expanded="true" />
-                <element signature="e#7338#7369#0" expanded="true" />
+                <element signature="e#1805#1841#0" expanded="true" />
+                <element signature="e#1878#1912#0" expanded="true" />
+                <element signature="e#1950#1984#0" expanded="true" />
+                <element signature="e#2020#2056#0" expanded="true" />
+                <element signature="e#2096#2122#0" expanded="true" />
+                <element signature="e#2528#2572#0" expanded="true" />
+                <element signature="e#2854#2885#0" expanded="true" />
+                <element signature="e#2962#2980#0" expanded="true" />
+                <element signature="e#3735#3762#0" expanded="true" />
+                <element signature="e#4358#4388#0" expanded="true" />
+                <element signature="e#4456#4496#0" expanded="true" />
+                <element signature="e#6419#6453#0" expanded="true" />
+                <element signature="e#6497#6531#0" expanded="true" />
+                <element signature="e#6664#6698#0" expanded="true" />
+                <element signature="e#6841#6871#0" expanded="true" />
+                <element signature="e#7220#7239#0" expanded="true" />
+                <element signature="e#7275#7297#0" expanded="true" />
+                <element signature="e#7324#7346#0" expanded="true" />
+                <element signature="e#7420#7451#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2539,7 +2509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1483711613088</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="FAB added, ArticleDetailActivity now extend from AppCompat, MaxWidthLayout remove">
+      <created>1483796248183</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1483796248183</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2636,7 +2613,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Shared transition bug fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shared transition bug fixes" />
+    <MESSAGE value="FAB added, ArticleDetailActivity now extend from AppCompat, MaxWidthLayout remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="FAB added, ArticleDetailActivity now extend from AppCompat, MaxWidthLayout remove" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2661,25 +2639,25 @@
         <state relative-caret-position="442">
           <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
-            <element signature="e#1764#1800#0" expanded="true" />
-            <element signature="e#1837#1871#0" expanded="true" />
-            <element signature="e#1909#1943#0" expanded="true" />
-            <element signature="e#1979#2015#0" expanded="true" />
-            <element signature="e#2055#2081#0" expanded="true" />
-            <element signature="e#2487#2531#0" expanded="true" />
-            <element signature="e#2813#2844#0" expanded="true" />
-            <element signature="e#2921#2939#0" expanded="true" />
-            <element signature="e#3694#3721#0" expanded="true" />
-            <element signature="e#4276#4306#0" expanded="true" />
-            <element signature="e#4374#4414#0" expanded="true" />
-            <element signature="e#6337#6371#0" expanded="true" />
-            <element signature="e#6415#6449#0" expanded="true" />
-            <element signature="e#6582#6616#0" expanded="true" />
-            <element signature="e#6759#6789#0" expanded="true" />
-            <element signature="e#7138#7157#0" expanded="true" />
-            <element signature="e#7193#7215#0" expanded="true" />
-            <element signature="e#7242#7264#0" expanded="true" />
-            <element signature="e#7338#7369#0" expanded="true" />
+            <element signature="e#1805#1841#0" expanded="true" />
+            <element signature="e#1878#1912#0" expanded="true" />
+            <element signature="e#1950#1984#0" expanded="true" />
+            <element signature="e#2020#2056#0" expanded="true" />
+            <element signature="e#2096#2122#0" expanded="true" />
+            <element signature="e#2528#2572#0" expanded="true" />
+            <element signature="e#2854#2885#0" expanded="true" />
+            <element signature="e#2962#2980#0" expanded="true" />
+            <element signature="e#3735#3762#0" expanded="true" />
+            <element signature="e#4358#4388#0" expanded="true" />
+            <element signature="e#4456#4496#0" expanded="true" />
+            <element signature="e#6419#6453#0" expanded="true" />
+            <element signature="e#6497#6531#0" expanded="true" />
+            <element signature="e#6664#6698#0" expanded="true" />
+            <element signature="e#6841#6871#0" expanded="true" />
+            <element signature="e#7220#7239#0" expanded="true" />
+            <element signature="e#7275#7297#0" expanded="true" />
+            <element signature="e#7324#7346#0" expanded="true" />
+            <element signature="e#7420#7451#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3054,28 +3032,28 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="156" column="64" selection-start-line="156" selection-start-column="64" selection-end-line="156" selection-end-column="64" />
+        <state relative-caret-position="255">
+          <caret line="89" column="39" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
           <folding>
-            <element signature="e#1764#1800#0" expanded="true" />
-            <element signature="e#1837#1871#0" expanded="true" />
-            <element signature="e#1909#1943#0" expanded="true" />
-            <element signature="e#1979#2015#0" expanded="true" />
-            <element signature="e#2055#2081#0" expanded="true" />
-            <element signature="e#2487#2531#0" expanded="true" />
-            <element signature="e#2813#2844#0" expanded="true" />
-            <element signature="e#2921#2939#0" expanded="true" />
-            <element signature="e#3694#3721#0" expanded="true" />
-            <element signature="e#4276#4306#0" expanded="true" />
-            <element signature="e#4374#4414#0" expanded="true" />
-            <element signature="e#6337#6371#0" expanded="true" />
-            <element signature="e#6415#6449#0" expanded="true" />
-            <element signature="e#6582#6616#0" expanded="true" />
-            <element signature="e#6759#6789#0" expanded="true" />
-            <element signature="e#7138#7157#0" expanded="true" />
-            <element signature="e#7193#7215#0" expanded="true" />
-            <element signature="e#7242#7264#0" expanded="true" />
-            <element signature="e#7338#7369#0" expanded="true" />
+            <element signature="e#1805#1841#0" expanded="true" />
+            <element signature="e#1878#1912#0" expanded="true" />
+            <element signature="e#1950#1984#0" expanded="true" />
+            <element signature="e#2020#2056#0" expanded="true" />
+            <element signature="e#2096#2122#0" expanded="true" />
+            <element signature="e#2528#2572#0" expanded="true" />
+            <element signature="e#2854#2885#0" expanded="true" />
+            <element signature="e#2962#2980#0" expanded="true" />
+            <element signature="e#3735#3762#0" expanded="true" />
+            <element signature="e#4358#4388#0" expanded="true" />
+            <element signature="e#4456#4496#0" expanded="true" />
+            <element signature="e#6419#6453#0" expanded="true" />
+            <element signature="e#6497#6531#0" expanded="true" />
+            <element signature="e#6664#6698#0" expanded="true" />
+            <element signature="e#6841#6871#0" expanded="true" />
+            <element signature="e#7220#7239#0" expanded="true" />
+            <element signature="e#7275#7297#0" expanded="true" />
+            <element signature="e#7324#7346#0" expanded="true" />
+            <element signature="e#7420#7451#0" expanded="true" />
           </folding>
         </state>
       </provider>
