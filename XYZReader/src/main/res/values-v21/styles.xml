@@ -12,7 +12,7 @@
         <item name="android:windowExitTransition">@transition/explode</item>
     </style>
 
-    <style name="Theme.Bacon.Detail" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+    <style name="Theme.Bacon.Detail" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/coloPrimaryDark</item>
         <item name="colorAccent">@color/theme_accent</item>
